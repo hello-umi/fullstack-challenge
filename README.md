@@ -2,11 +2,12 @@
 
 ## Description
 From UmiLabs we want to use our legacy integration with LandbotCore to embed the support Livechat on our web.
-This Livechat connects with Landbot to follow the flow (you can use this template https://templates.landbot.io/full-stack-challenge-215/) and send the user data to a new API.
+This Livechat connects with Landbot platform to follow the flow of a chatbot and send notifications to different services through their API's.
+We have prepared a chatbot template that you could use as a reference: https://templates.landbot.io/full-stack-challenge-215/
 
 The challenge consists of two parts (You can do it in JS or TS):
 
-**React**
+1. **React**
 As a web app can grow insanely with new features, we need to make sure our code is clean and scalable, and sometimes we need to refactor big components.
 
 Tasks:
@@ -15,17 +16,17 @@ Tasks:
 
 > (Optional) Use storybook with `npm run storybook` to organise your components.
 
-**Node**
-Create an API endpoint to store the data on a Database (Select the DB that you like the most) and notify our teams through different channels for them to contact the user.
+2. **Node**
+Create an API endpoint to store the data on a Database (Select the DB that you like the most) and notify our teams through different services like email or Slack.
 
 Tasks:
 - Create an endpoint to store the user data (Name, Topic, Message).
-- Send a notification to a different channel according the Topic.
+- Send a notification to a different service according the Topic.
 
 ```
-Topic    | Channel
+Topic    | Service
 ----------------------
-Sales    | Slack
+Sales    | Slack channel
 Pricing  | Email
 ```
 
